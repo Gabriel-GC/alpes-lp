@@ -62,7 +62,7 @@ nav {
   background-image: url(assets/alpine-4888423_1920.jpg);
   background-size: cover;
   background-position: center;
-  padding: 10rem 0;
+  padding: 15rem 0;
 }
 
 .main-banner h1,
@@ -72,3 +72,24 @@ nav {
   font-weight: bold;
   text-shadow: rgba(0, 0, 0, 0.4) 3px 2px 3px;
 }
+
+/* Modes */
+.modes-container {
+  padding: 5rem 0;
+}
+.modes-container ul {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+}
+.modes-container li {
+  flex: 1 1 200px;
+  list-style: none;
+  text-align: center;
+  padding: 20px;
+}
+
+.modes-container img {
+    width: 64px;
+    margin-bottom: 25px;
+  }
