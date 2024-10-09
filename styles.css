@@ -63,9 +63,8 @@ nav {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  padding: 15rem 0;
+  padding: 19rem 0;
 }
-
 .main-banner h1,
 .main-banner p {
   color: white;
@@ -73,12 +72,23 @@ nav {
   font-weight: bold;
   text-shadow: rgba(0, 0, 0, 0.4) 3px 2px 3px;
 }
+.afect{
+  background-image: url(assets/afect.png);
+  background-size: cover;
+  background-position: center;
+  padding: 4rem 0;
+  position: relative;
+  top: -128px;
+
+}
 
 /* Modes */
 .modes-container ul {
   display: flex;
   width: 90%;
   margin: 0 auto;
+  margin-bottom: 32px;
+
 }
 .modes-container li {
   display: flex;
@@ -86,12 +96,11 @@ nav {
   flex-direction: column;
   flex: 1 1 200px;
   list-style: none;
-  text-align: left;
+  text-align: justify;
   padding: 20px;
   gap: 10px;
 }
 .modes-container p {
-  border-left: 2px solid #e1e1e0;
   padding-left: 8px;
 }
 .modes-title {
@@ -103,19 +112,24 @@ nav {
 }
 .modes-title h2 {
   font-size: 32px;
+  text-transform: uppercase;
 }
 .art {
   position: relative;
-  right: 160px;
-  top: 75px;
-  opacity: 0.2;
+  opacity: 0.7;
   z-index: -1;
   font-size: 40px;
 }
 
 .modes-container img {
-  width: 64px;
+  width: 100px;
   margin-bottom: 25px;
+}
+.modes-container hr {
+  width: 200px;
+  margin: 0 auto;
+  border: 2px solid #ddd9d6;
+  border-radius: 5px;
 }
 
 /* Ads */
@@ -259,5 +273,4 @@ nav {
 
 .newslatter-container input[type="submit"]:hover {
   background-color: #c9c5c3;
-
 }
