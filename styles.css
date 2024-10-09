@@ -90,30 +90,128 @@ nav {
   gap: 10px;
 }
 .modes-container p {
-    border-left: 2px solid #ccc;
-    padding-left: 8px;
-
+  border-left: 2px solid #e1e1e0;
+  padding-left: 8px;
 }
-.modes-title{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding-bottom: 40px;
-    margin-bottom: 2rem;
+.modes-title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 40px;
+  margin-bottom: 2rem;
 }
-.modes-title h2{
-    font-size: 32px;
+.modes-title h2 {
+  font-size: 32px;
 }
-.art{
-    position: relative;
-    right: 160px;
-    top: 75px;
-    opacity: 0.2;
-    z-index: -1;
-    font-size: 40px;
+.art {
+  position: relative;
+  right: 160px;
+  top: 75px;
+  opacity: 0.2;
+  z-index: -1;
+  font-size: 40px;
 }
 
 .modes-container img {
   width: 64px;
   margin-bottom: 25px;
 }
+
+/* Ads */
+
+.ads-items {
+  display: flex;
+  padding: 70px 0;
+  background-color: #e1e1e0;
+  font-size: 12px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 4rem;
+  gap: 24px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  align-items: center;
+  padding: 25px;
+  width: 400px;
+  text-align: center;
+}
+.item h4 {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 16px 0;
+}
+.item p {
+  padding: 8px 0;
+}
+.description {
+  color: #4e4e4e;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: bold;
+}
+.button {
+  padding: 15px 20px;
+  background-color: #ddd9d6;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #252c3b;
+  margin-top: 16px;
+}
+.button:hover {
+  background-color: #c9c5c3;
+}
+
+/* Fotos items */
+
+.prancha {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  background-image: url(assets/prancha-1.webp);
+  background-position: center;
+  background-size: cover;
+  transition: 0.5s;
+  margin: 16px 0;
+}
+.prancha:hover {
+  background-image: url(assets/prancha-2.webp);
+}
+
+.mochila {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    background-image: url(assets/mochila-1.webp);
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
+    margin: 16px 0;
+  }
+  .mochila:hover {
+    background-image: url(assets/mochila-2.webp);
+  }
+
+  .bota {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    background-image: url(assets/bota-1.jpeg);
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
+    margin: 16px 0;
+  }
+  .bota:hover {
+    background-image: url(assets/bota-2.jpg);
+  }
