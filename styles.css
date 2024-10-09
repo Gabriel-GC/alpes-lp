@@ -62,6 +62,7 @@ nav {
   background-image: url(assets/alpine-4888423_1920.jpg);
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   padding: 15rem 0;
 }
 
@@ -164,9 +165,9 @@ nav {
   font-size: 16px;
   text-align: center;
   text-decoration: none;
-  text-transform: uppercase;
   color: #252c3b;
   margin-top: 16px;
+  transition: 0.5s;
 }
 .button:hover {
   background-color: #c9c5c3;
@@ -189,29 +190,74 @@ nav {
 }
 
 .mochila {
-    display: flex;
-    width: 300px;
-    height: 300px;
-    background-image: url(assets/mochila-1.webp);
-    background-position: center;
-    background-size: cover;
-    transition: 0.5s;
-    margin: 16px 0;
-  }
-  .mochila:hover {
-    background-image: url(assets/mochila-2.webp);
-  }
+  display: flex;
+  width: 300px;
+  height: 300px;
+  background-image: url(assets/mochila-1.webp);
+  background-position: center;
+  background-size: cover;
+  transition: 0.5s;
+  margin: 16px 0;
+}
+.mochila:hover {
+  background-image: url(assets/mochila-2.webp);
+}
 
-  .bota {
-    display: flex;
-    width: 300px;
-    height: 300px;
-    background-image: url(assets/bota-1.jpeg);
-    background-position: center;
-    background-size: cover;
-    transition: 0.5s;
-    margin: 16px 0;
-  }
-  .bota:hover {
-    background-image: url(assets/bota-2.jpg);
-  }
+.bota {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  background-image: url(assets/bota-1.jpeg);
+  background-position: center;
+  background-size: cover;
+  transition: 0.5s;
+  margin: 16px 0;
+}
+.bota:hover {
+  background-image: url(assets/bota-2.jpg);
+}
+
+/* Newslatter */
+
+.newslatter-container {
+  background-color: #252c3b;
+  text-align: center;
+  padding: 5rem 0;
+}
+
+.newslatter-container h2 {
+  color: #fff;
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+.newslatter-container p {
+  color: #c9c5c3;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+.newslatter-container input {
+  display: block;
+  border: none;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+.newslatter-container input[type="email"] {
+  width: 60%;
+  padding: 20px;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.newslatter-container input[type="submit"] {
+  background-color: #ddd9d6;
+  padding: 15px 30px;
+  color: #252c3b;
+  font-size: 24px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.newslatter-container input[type="submit"]:hover {
+  background-color: #c9c5c3;
+
+}
