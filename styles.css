@@ -10,7 +10,7 @@ h3 {
   color: black;
 }
 p {
-  color: black;
+  color: rgb(29, 29, 29);
 }
 /* Navbar */
 .navbar-container {
@@ -72,14 +72,13 @@ nav {
   font-weight: bold;
   text-shadow: rgba(0, 0, 0, 0.4) 3px 2px 3px;
 }
-.afect{
+.afect {
   background-image: url(assets/afect.png);
   background-size: cover;
   background-position: center;
   padding: 4rem 0;
   position: relative;
   top: -128px;
-
 }
 
 /* Modes */
@@ -88,7 +87,6 @@ nav {
   width: 90%;
   margin: 0 auto;
   margin-bottom: 32px;
-
 }
 .modes-container li {
   display: flex;
@@ -96,7 +94,7 @@ nav {
   flex-direction: column;
   flex: 1 1 200px;
   list-style: none;
-  text-align: justify;
+  text-align: center;
   padding: 20px;
   gap: 10px;
 }
@@ -151,8 +149,10 @@ nav {
   flex-direction: column;
   background-color: white;
   align-items: center;
+  justify-content: space-between;
   padding: 25px;
   width: 400px;
+  height: 700px;
   text-align: center;
 }
 .item h4 {
@@ -166,10 +166,13 @@ nav {
 .description {
   color: #4e4e4e;
 }
-
 .price {
   font-size: 24px;
   font-weight: bold;
+}
+.price-off {
+  font-size: 16px;
+  color: rgb(238, 38, 38);
 }
 .button {
   padding: 15px 20px;
@@ -269,8 +272,52 @@ nav {
   font-size: 24px;
   cursor: pointer;
   transition: 0.5s;
+  width: 200px;
 }
 
 .newslatter-container input[type="submit"]:hover {
+  background-color: #c9c5c3;
+}
+
+/* Form */
+
+.contact-container {
+  text-align: center;
+  padding: 5rem 0 2rem 0;
+}
+.contact-container h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+.contact-container p {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+.contact-container input,
+.contact-container textarea {
+  width: 387px;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0 10px 20px;
+  border: 1px solid #c9c5c3;
+}
+
+.contact-container textarea {
+  display: block;
+  margin: 0 auto 20px;
+  width: 800px;
+  height: 200px;
+}
+.contact-container input[type="submit"] {
+  background-color: #ddd9d6;
+  padding: 15px 30px;
+  color: #252c3b;
+  font-size: 24px;
+  cursor: pointer;
+  transition: 0.5s;
+  width: 200px;
+}
+.contact-container input[type="submit"]:hover {
   background-color: #c9c5c3;
 }
