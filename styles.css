@@ -516,6 +516,12 @@ footer a {
 
 @media (max-width: 600px) {
   
+  .menu-hamburger label {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
   .menu-hamburger {
     display: flex;
     width: auto;
