@@ -173,7 +173,6 @@ input:checked ~ .menu-hamburguer-elements {
   font-size: 32px;
   color: #252c3b;
   font-family: "Lobster", sans-serif;
-
 }
 .art {
   position: relative;
@@ -197,7 +196,7 @@ input:checked ~ .menu-hamburguer-elements {
 }
 
 /* Ads */
-.ads-container{
+.ads-container {
   background-color: #e1e1e0;
   display: flex;
   flex-direction: column;
@@ -403,7 +402,7 @@ input:checked ~ .menu-hamburguer-elements {
 /* Footer */
 footer {
   display: flex;
-  padding: 3rem 0;
+  padding: 5rem 0;
   background-color: #252c3b;
   justify-content: center;
   align-items: center;
@@ -411,8 +410,15 @@ footer {
   gap: 32px;
 }
 
+footer h6 {
+  font-size: 42px;
+  color: #f2f2f2;
+  font-family: 'lobster', sans-serif;
+  text-decoration: underline;
+
+}
 footer p {
-  margin-top: 10rem;
+  margin-top: 3rem;
   color: #c9c5c3;
   font-size: 10px;
 }
@@ -423,7 +429,6 @@ footer a {
 }
 
 /* Gallery */
-
 
 .galery {
   background-color: #212121;
@@ -633,6 +638,15 @@ footer a {
 
   /* Modes */
 
+  .ads-container {
+    padding: 0;
+    padding-bottom: 3rem;
+  }
+  
+  .ads-container h5 {
+    margin: 40px 0;
+  }
+
   .modes-container ul {
     flex-direction: column;
   }
@@ -653,6 +667,7 @@ footer a {
   /* Newlatter */
   .newslatter-container h2 {
     font-size: 24px;
+    padding: 0 1rem;
   }
   .newslatter-container p {
     font-size: 16px;
@@ -666,6 +681,10 @@ footer a {
   }
 
   /* Contact */
+  .contact-container h2{
+    font-size: 24px;
+    padding: 0 1rem;
+  }
   .contact-container textarea {
     width: 90%;
   }
