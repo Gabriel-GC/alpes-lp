@@ -112,49 +112,6 @@ input:checked ~ label .hamburguer:after {
 input:checked ~ .menu-hamburguer-elements {
   left: 0;
 }
-/* .navbar-container {
-  width: 100%;
-  height: 80px;
-  background-color: #e1e1e0;
-  padding: 0 3rem;
-}
-nav {
-  position: relative;
-}
-.logo {
-  width: 50px;
-  margin-top: 15px;
-}
-.navbar-items {
-  position: absolute;
-  right: 0;
-  height: 80px;
-  line-height: 80px;
-  margin: 0;
-  display: inline-block;
-}
-.navbar-items li {
-  display: inline-block;
-  text-transform: uppercase;
-  margin-left: 25px;
-}
-.navbar-items a {
-  color: #252c3b;
-  text-decoration: none;
-  transition: 0.5s;
-}
-.navbar-items a:hover {
-  color: #252c3b;
-}
-.default-btn {
-  padding: 15px 20px;
-  background-color: #ddd9d6;
-  border-radius: 5px;
-  color: white;
-}
-.navbar-items .default-btn:hover {
-  background-color: #c9c5c3;
-} */
 
 /* main banner */
 .main-banner {
