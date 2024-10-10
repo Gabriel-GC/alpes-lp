@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -13,6 +15,10 @@ p {
   color: rgb(29, 29, 29);
 }
 /* Navbar */
+.text-menu {
+  display: none;
+}
+
 .menu-hamburger {
   width: 100%;
   display: flex;
@@ -121,8 +127,7 @@ input:checked ~ .menu-hamburguer-elements {
   background-attachment: fixed;
   padding: 15rem 0;
 }
-.main-banner h1,
-.main-banner p {
+.main-banner h1 {
   color: white;
   text-align: center;
   font-weight: bold;
@@ -402,6 +407,7 @@ footer a {
 
 /* Gallery */
 
+
 .galery {
   background-color: #212121;
   padding: 4rem;
@@ -417,6 +423,9 @@ footer a {
   position: relative;
   width: 80%;
   margin: 0 auto;
+}
+.container-image {
+  position: relative;
 }
 /* Hide the images by default */
 .mySlides {
@@ -496,7 +505,7 @@ footer a {
   opacity: 1;
 }
 
-/* Resposive mode  */
+/* Resposive mode ........................................................................................... */
 
 @media (max-width: 1200px) {
   .ads-items {
@@ -537,10 +546,19 @@ footer a {
 @media (max-width: 600px) {
   /* Navbar */
 
+  .text-menu {
+    display: flex;
+    font-family: "Lobster", sans-serif;
+    margin-left: 3rem;
+    font-size: 38px;
+    color: #4e4e4e;
+    text-decoration: underline;
+  }
   .menu-hamburger label {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
   }
 
   .menu-hamburger {
@@ -589,7 +607,7 @@ footer a {
     padding: 0 2rem;
   }
   /* Products */
-  .button{
+  .button {
     height: 60px;
     display: flex;
     align-items: center;
@@ -605,7 +623,7 @@ footer a {
   /* Galery */
 
   .galery {
-    padding: 3rem 1rem;
+    padding: 5rem 1rem;
   }
   .galery h4 {
     text-align: center;
@@ -621,6 +639,7 @@ footer a {
   }
   .newslatter-container p {
     font-size: 16px;
+    padding: 0 2rem;
   }
   .newslatter-container input[type="email"] {
     width: 90%;
@@ -633,12 +652,17 @@ footer a {
   .contact-container textarea {
     width: 90%;
   }
-  .contact-container input[type="submit"]{
+  .contact-container input[type="submit"] {
     width: 90%;
+  }
+  .contact-container p {
+    font-size: 16px;
+    padding: 0 2rem;
+    margin-bottom: 25px;
   }
 
   /* Footer */
-  footer a p{
+  footer a p {
     font-size: 14px;
   }
 }

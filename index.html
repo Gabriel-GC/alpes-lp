@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <link rel="icon" href="assets/montanhas.png" type="image/x-icon">
+    <title>ALPES</title>
 </head>
 
 <body>
@@ -15,20 +16,21 @@
 
                 <input class="menu-nav" id="menu-hamburguer" type="checkbox" />
                 <label for="menu-hamburguer">
+                    <p class="text-menu">Alpes</p>
                     <div class="menu">
                         <span class="hamburguer"></span>
                     </div>
                 </label>
-    
+
                 <ul class="menu-hamburguer-elements show">
                     <li>
                         <a href="#">Home</a>
                     </li>
-    
+
                     <li>
                         <a href="#">Galeria</a>
                     </li>
-    
+
                     <li>
                         <a href="#">Contato</a>
                     </li>
@@ -37,7 +39,7 @@
         </div>
         <main>
             <div class="main-banner">
-                <h1>"Cada passo na montanha é um passo em direção à vitória sobre si mesmo."</h1>
+                <h1>"Cada passo nos Alpes é um passo em direção à vitória sobre si mesmo."</h1>
             </div>
             <div class="afect"></div>
             <section class="modes-container">
@@ -125,69 +127,77 @@
             <section class="galery">
                 <h4>Paparazzi da montanha 📷</h4>
                 <div class="galery-container">
+
                     <script src="app.js"></script>
                     <!-- Full-width images with number text -->
-                    <div class="mySlides">
-                      <div class="numbertext">1 / 6</div>
-                        <img src="assets/galery/galeria-1.webp" style="width:100%">
+                    <div class="container-image">
+                        <div class="mySlides">
+                            <div class="numbertext">1 / 6</div>
+                            <img src="assets/galery/galeria-1.webp" style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">2 / 6</div>
+                            <img src="assets/galery/galeria-2.webp" style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">3 / 6</div>
+                            <img src="assets/galery/galeria-3.webp" style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">4 / 6</div>
+                            <img src="assets/galery/galeria-4.webp" style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">5 / 6</div>
+                            <img src="assets/galery/galeria-5.webp" style="width:100%">
+                        </div>
+
+                        <div class="mySlides">
+                            <div class="numbertext">6 / 6</div>
+                            <img src="assets/galery/galeria-6.webp" style="width:100%">
+                        </div>
+
+                        <!-- Next and previous buttons -->
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                        <!-- Image text -->
+                        <div class="caption-container">
+                            <p id="caption"></p>
+                        </div>
+
+                        <!-- Thumbnail images -->
+                        <div class="row">
+                            <div class="column">
+                                <img class="demo cursor" src="assets/galery/galeria-1.webp" style="width:100%"
+                                    onclick="currentSlide(1)">
+                            </div>
+                            <div class="column">
+                                <img class="demo cursor" src="assets/galery/galeria-2.webp" style="width:100%"
+                                    onclick="currentSlide(2)">
+                            </div>
+                            <div class="column">
+                                <img class="demo cursor" src="assets/galery/galeria-3.webp" style="width:100%"
+                                    onclick="currentSlide(3)">
+                            </div>
+                            <div class="column">
+                                <img class="demo cursor" src="assets/galery/galeria-4.webp" style="width:100%"
+                                    onclick="currentSlide(4)">
+                            </div>
+                            <div class="column">
+                                <img class="demo cursor" src="assets/galery/galeria-5.webp" style="width:100%"
+                                    onclick="currentSlide(5)">
+                            </div>
+                            <div class="column">
+                                <img class="demo cursor" src="assets/galery/galeria-6.webp" style="width:100%"
+                                    onclick="currentSlide(6)">
+                            </div>
+                        </div>
                     </div>
-                  
-                    <div class="mySlides">
-                      <div class="numbertext">2 / 6</div>
-                        <img src="assets/galery/galeria-2.webp" style="width:100%">
-                    </div>
-                  
-                    <div class="mySlides">
-                      <div class="numbertext">3 / 6</div>
-                        <img src="assets/galery/galeria-3.webp" style="width:100%">
-                    </div>
-                  
-                    <div class="mySlides">
-                      <div class="numbertext">4 / 6</div>
-                        <img src="assets/galery/galeria-4.webp" style="width:100%">
-                    </div>
-                  
-                    <div class="mySlides">
-                      <div class="numbertext">5 / 6</div>
-                        <img src="assets/galery/galeria-5.webp" style="width:100%">
-                    </div>
-                  
-                    <div class="mySlides">
-                      <div class="numbertext">6 / 6</div>
-                        <img src="assets/galery/galeria-6.webp" style="width:100%">
-                    </div>
-                  
-                    <!-- Next and previous buttons -->
-                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                  
-                    <!-- Image text -->
-                    <div class="caption-container">
-                      <p id="caption"></p>
-                    </div>
-                  
-                    <!-- Thumbnail images -->
-                    <div class="row">
-                      <div class="column">
-                        <img class="demo cursor" src="assets/galery/galeria-1.webp" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
-                      </div>
-                      <div class="column">
-                        <img class="demo cursor" src="assets/galery/galeria-2.webp" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
-                      </div>
-                      <div class="column">
-                        <img class="demo cursor" src="assets/galery/galeria-3.webp" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
-                      </div>
-                      <div class="column">
-                        <img class="demo cursor" src="assets/galery/galeria-4.webp" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
-                      </div>
-                      <div class="column">
-                        <img class="demo cursor" src="assets/galery/galeria-5.webp" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
-                      </div>
-                      <div class="column">
-                        <img class="demo cursor" src="assets/galery/galeria-6.webp" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
-                      </div>
-                    </div>
-                  </div>
             </section>
             <section class="newslatter-container">
                 <h2>Gostaria de ficar por dentro do mundo da montanha?</h2>
@@ -212,7 +222,8 @@
             </section>
             <footer>
                 <p>Website developed for testing purposes, features and content does not apply.</p>
-                <a href="https://www.linkedin.com/in/gabriel-gon%C3%A7alves-cunha-37347b305/">Gabriel Gonçalves Cunha @ 2024</a>
+                <a href="https://www.linkedin.com/in/gabriel-gon%C3%A7alves-cunha-37347b305/">Gabriel Gonçalves Cunha @
+                    2024</a>
             </footer>
         </main>
     </div>
